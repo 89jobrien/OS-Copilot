@@ -3,9 +3,11 @@
 <div align="center">
 
 [[Website]](https://os-copilot.github.io/)
-[[Arxiv]](https://arxiv.org/abs/2402.07456)
 [[PDF]](https://arxiv.org/pdf/2402.07456.pdf)
 [[Documentation]](https://os-copilot.readthedocs.io/en/latest/)
+[[Twitter]](https://twitter.com/oscopilot)
+[[Discord]](https://discord.com/invite/rXS2XbgfaD)
+<!-- [[Arxiv]](https://arxiv.org/abs/2402.07456) -->
 <!-- [[Tweet]](https://twitter.com/DrJimFan/status/1662115266933972993?s=20) -->
 
 [![Static Badge](https://img.shields.io/badge/MIT-License-green)](https://github.com/OS-Copilot/OS-Copilot/blob/main/LICENSE)
@@ -20,7 +22,7 @@
 
 </div>
 
-## 📖 Overview
+<!-- ## 📖 Overview
 
 - **OS-Copilot** is a pioneering conceptual framework for building generalist computer agents on Linux and MacOS, which provides a unified interface for app interactions in the heterogeneous OS ecosystem.
   
@@ -32,7 +34,11 @@
 
 <p align="center">
   <img src='pic/FRIDAY.png' width="75%">
-</p>
+</p> -->
+
+## 🔥 News
+- *2024.3*: 🎉 OS-Copilot is accepted at the [LLM Agents Workshop](https://llmagents.github.io/)@ICLR 2024. 
+
 
 ## ⚡️ Quickstart
 
@@ -42,32 +48,39 @@
    git clone https://github.com/OS-Copilot/OS-Copilot.git
    ```
 
-2. **Set Up Python Environment:** Ensure you have a version 3.10 or higher Python environment. You can create and
-   activate this environment using the following commands, replacing `oscopilot_env` with your preferred environment
-   name:
+2. **Set Up Python Environment and Install Dependencies:** 
 
    ```
    conda create -n oscopilot_env python=3.10 -y
    conda activate oscopilot_env
-   ```
-
-3. **Install Dependencies:** Move into the `OS-Copilot` directory and install the necessary dependencies by running:
-
-   ```
+   
    cd OS-Copilot
    pip install -e .
    ```
 
-4. **Set OpenAI API Key:** Configure your OpenAI API key in [.env](.env) and select the model you wish to use.
+4. **Set OpenAI API Key:** Configure your OpenAI API key in [.env](.env).
 
-5. **Running the Script:** Run the quick_start.py script, simply execute the following command in your terminal:
+5. **Now you are ready to have fun:**
    ```
    python quick_start.py
    ```
 
-\* FRIDAY currently only supports single-round conversation.
+\* **FRIDAY currently only supports single-round conversation**.
 
-## 🛠️ FRIDAY-Gizmos
+## 🛠️ Tutorial
+
+| **Level**        | **Tutorial**                                                                                    | **Description**                                                                                            |
+|------------------|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| **Beginner**     | [Installation](https://os-copilot.readthedocs.io/en/latest/installation.html)| Explore three methods to install FRIDAY.                                                                   |
+| **Beginner**     | [Getting Started](https://os-copilot.readthedocs.io/en/latest/quick_start.html)| The simplest demonstration of FRIDAY with a quick_start.py script.                                         |
+| **Intermediate** | [Adding Your Tools](https://os-copilot.readthedocs.io/en/latest/tutorials/add_tool.html)| Adding and removing tools to the FRIDAY.                                                                   |
+| **Intermediate** | [Deploying API Services](https://os-copilot.readthedocs.io/en/latest/tutorials/deploy_api_service.html)| Demonstrate the deployment of API services for FRIDAY.                                                     |
+| **Intermediate** | [Example: Automating Excel Tasks](https://os-copilot.readthedocs.io/en/latest/tutorials/example_excel.html)| Automating Excel control using FRIDAY.                                                                     |
+| **Intermediate** | [Enhancing FRIDAY with Self-Learning for Excel Task Automation](https://os-copilot.readthedocs.io/en/latest/tutorials/self_learning.html) | Improved Excel control with self-directed learning.                                                        |
+| **Advanced**     | [Designing New API Tools](https://os-copilot.readthedocs.io/en/latest/tutorials/design_new_api_tool.html)| Guides on deploying custom API tools for FRIDAY to extend its functionalities. |
+
+
+<!-- ## 🛠️ FRIDAY-Gizmos
 We maintain an open-source library of toolkits for FRIDAY, which includes tools that can be directly utilized within FRIDAY.
 For a detailed list of tools, please see [FRIDAY-Gizmos](https://github.com/OS-Copilot/FRIDAY-Gizmos). The usage methods are as follows:
 
@@ -87,16 +100,18 @@ python friday/tool_repository/manager/tool_manager.py --delete --tool_name [tool
 
 ## ✨ Deploy API Services
 
-For comprehensive guidelines on deploying API services, please refer to the [OS-Copilot documentation](https://os-copilot.readthedocs.io/en/latest/). 
+For comprehensive guidelines on deploying API services, please refer to the [OS-Copilot documentation](https://os-copilot.readthedocs.io/en/latest/).  -->
 
 ## 🏫 Community
 
-Join our community to connect with other enthusiasts, share your tools and demos, and collaborate on innovative projects. Stay engaged and get the latest updates by following us:
+Join our community to connect with other enthusiasts, researchers and developers:
 
-- **Discord**: Join our Discord server for real-time discussions, support, and to share your work with the community. Click here to join: [Discord Server](https://discord.gg/PDsRrEV27b).
-- **Twitter**: Follow us on Twitter [@oscopilot](https://twitter.com/oscopilot) for the latest news, updates, and highlights from our community.
+- **[Discord](https://discord.com/invite/rXS2XbgfaD)**: Join our Discord server for real-time discussions and support.
+- **[Twitter](https://twitter.com/oscopilot)**: Follow our Twitter to get latest new or tag us to share your demos!
 
-## 👨‍💻‍ Contributors
+## 👨‍💻‍ Contributing
+
+**Visit [the roadmap](./docs/roadmap.md) to preview what the community is working on and become a contributor!**
 
 <a href="https://github.com/OS-Copilot/OS-Copilot/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=OS-Copilot/OS-Copilot" />
